@@ -1,4 +1,4 @@
-module go.minekube.com/gate
+module github.com/luckcrafter/gate
 
 go 1.24.1
 
