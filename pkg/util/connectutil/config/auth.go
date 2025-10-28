@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"go.minekube.com/gate/pkg/internal/randstr"
+	"github.com/luckcrafter/gate/pkg/internal/randstr"
 )
 
 const tokenFilename = "connect.json"

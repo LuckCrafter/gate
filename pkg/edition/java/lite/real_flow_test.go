@@ -9,11 +9,11 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/go-logr/logr/testr"
+	"github.com/luckcrafter/gate/pkg/edition/java/lite/config"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 	"github.com/stretchr/testify/assert"
-	"go.minekube.com/gate/pkg/edition/java/lite/config"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/errs"
 )
 
 // TestDialRouteConnectionRefusedVerbosity tests the actual dialRoute function

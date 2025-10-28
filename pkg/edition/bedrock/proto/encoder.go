@@ -4,9 +4,8 @@ import (
 	"io"
 
 	"github.com/go-logr/logr"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 	"github.com/sandertv/gophertunnel/minecraft/protocol/packet"
-
-	"go.minekube.com/gate/pkg/gate/proto"
 )
 
 type Encoder struct {

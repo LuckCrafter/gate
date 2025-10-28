@@ -4,11 +4,11 @@ package bossbar
 import (
 	"context"
 
+	packet "github.com/luckcrafter/gate/pkg/edition/java/proto/packet/bossbar"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/chat"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 	"go.minekube.com/common/minecraft/component"
-	packet "go.minekube.com/gate/pkg/edition/java/proto/packet/bossbar"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/chat"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/uuid"
 )
 
 // BossBar is a boss bar.

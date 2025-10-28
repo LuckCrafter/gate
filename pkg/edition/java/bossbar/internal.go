@@ -4,14 +4,14 @@ import (
 	"context"
 	"sync"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/chat"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/chat"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/internal/methods"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/bossbar"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/edition/java/internal/methods"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/bossbar"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/uuid"
 )
 
 type bossBar struct {

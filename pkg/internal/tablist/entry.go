@@ -6,16 +6,16 @@ import (
 	"sync"
 	"time"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/chat"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/chat"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
 
 	"go.minekube.com/common/minecraft/component"
 
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/tablist/playerinfo"
-	"go.minekube.com/gate/pkg/edition/java/proxy/player"
-	"go.minekube.com/gate/pkg/edition/java/proxy/tablist"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/tablist/playerinfo"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/player"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/tablist"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 type EntryAttributes struct {

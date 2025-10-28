@@ -1,9 +1,8 @@
 package config
 
 import (
+	"github.com/luckcrafter/gate/pkg/util/configutil"
 	"gopkg.in/yaml.v3"
-
-	"go.minekube.com/gate/pkg/util/configutil"
 )
 
 // DefaultConfig provides default settings for Bedrock Edition support.

@@ -2,12 +2,13 @@ package bossbar
 
 import (
 	"errors"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/chat"
 	"io"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/chat"
+
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 type Action int

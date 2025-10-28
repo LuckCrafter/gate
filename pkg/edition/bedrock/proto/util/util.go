@@ -2,8 +2,9 @@ package util
 
 import (
 	"errors"
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
 	"io"
+
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
 )
 
 // ReadVarUint32 reads up to 5 bytes from the source buffer passed and sets the integer produced to a pointer.

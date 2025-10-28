@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/util/componentutil"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/util/componentutil"
 	"gopkg.in/yaml.v3"
 )
 

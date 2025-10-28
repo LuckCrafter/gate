@@ -12,11 +12,11 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/state"
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/errs"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 )
 
 // Decoder is a synchronized packet decoder

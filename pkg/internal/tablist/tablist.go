@@ -8,13 +8,13 @@ import (
 
 	"go.minekube.com/common/minecraft/component"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/chat"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/tablist/playerinfo"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/edition/java/proxy/tablist"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/chat"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/tablist/playerinfo"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/tablist"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 // New creates a new tab list for the given viewer.

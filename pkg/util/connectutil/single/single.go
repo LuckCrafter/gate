@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/util/connectutil"
-	"go.minekube.com/gate/pkg/util/netutil"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/util/connectutil"
+	"github.com/luckcrafter/gate/pkg/util/netutil"
 )
 
 type Options struct {

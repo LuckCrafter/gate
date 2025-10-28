@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/packet"
-	"go.minekube.com/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 )
 
 // TestDecodeStatusResponse_WithErrDecoderLeftBytes tests that decodeStatusResponse

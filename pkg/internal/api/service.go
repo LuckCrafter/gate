@@ -9,13 +9,13 @@ import (
 	"go.minekube.com/common/minecraft/component"
 	"go.minekube.com/common/minecraft/key"
 
-	"go.minekube.com/gate/pkg/edition/java/cookie"
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	pb "go.minekube.com/gate/pkg/internal/api/gen/minekube/gate/v1"
-	"go.minekube.com/gate/pkg/internal/api/gen/minekube/gate/v1/gatev1connect"
-	"go.minekube.com/gate/pkg/util/componentutil"
-	"go.minekube.com/gate/pkg/util/netutil"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/cookie"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	pb "github.com/luckcrafter/gate/pkg/internal/api/gen/minekube/gate/v1"
+	"github.com/luckcrafter/gate/pkg/internal/api/gen/minekube/gate/v1/gatev1connect"
+	"github.com/luckcrafter/gate/pkg/util/componentutil"
+	"github.com/luckcrafter/gate/pkg/util/netutil"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 func NewService(p *proxy.Proxy) *Service {

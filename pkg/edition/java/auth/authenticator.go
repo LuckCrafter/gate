@@ -25,8 +25,8 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	"go.minekube.com/gate/pkg/version"
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	"github.com/luckcrafter/gate/pkg/version"
 )
 
 // Authenticator is a Mojang user authenticator.

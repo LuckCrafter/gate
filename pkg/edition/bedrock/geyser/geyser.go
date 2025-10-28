@@ -9,16 +9,16 @@ import (
 	"sync"
 
 	"github.com/go-logr/logr"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/config"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/geyser/floodgate"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/geyser/managed"
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/util/errs"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 	"github.com/pires/go-proxyproto"
 	"github.com/robinbraemer/event"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/edition/bedrock/config"
-	"go.minekube.com/gate/pkg/edition/bedrock/geyser/floodgate"
-	"go.minekube.com/gate/pkg/edition/bedrock/geyser/managed"
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/util/errs"
-	"go.minekube.com/gate/pkg/util/uuid"
 )
 
 // Integration provides Geyser integration for Gate.

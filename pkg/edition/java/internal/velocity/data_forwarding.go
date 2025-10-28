@@ -5,13 +5,14 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"errors"
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	protoutil "go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/edition/java/proxy/crypto"
-	"go.minekube.com/gate/pkg/edition/java/proxy/crypto/keyrevision"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/uuid"
+
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	protoutil "github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/crypto"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/crypto/keyrevision"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 const (

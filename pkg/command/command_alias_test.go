@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/luckcrafter/gate/pkg/util/permission"
 	"github.com/stretchr/testify/require"
 	"go.minekube.com/brigodier"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/util/permission"
 )
 
 // TestCommandAliases tests the RegisterWithAliases functionality

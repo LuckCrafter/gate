@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 // Floodgate handles Bedrock player authentication and data extraction.

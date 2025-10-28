@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 )
 
 type (

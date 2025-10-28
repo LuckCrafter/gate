@@ -1,9 +1,10 @@
 package proto
 
 import (
-	"go.minekube.com/gate/pkg/edition/bedrock/proto/util"
-	"go.minekube.com/gate/pkg/gate/proto"
 	"io"
+
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/proto/util"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 )
 
 // PacketMeta is a Bedrock edition packet.

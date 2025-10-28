@@ -17,11 +17,11 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/runtime/process"
-	"go.minekube.com/gate/pkg/util/connectutil"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/runtime/process"
+	"github.com/luckcrafter/gate/pkg/util/connectutil"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 const mdOfflineMode = connect.MDEndpoint + "-offline-mode"

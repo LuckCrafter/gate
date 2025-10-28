@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	bconfig "go.minekube.com/gate/pkg/edition/bedrock/config"
-	"go.minekube.com/gate/pkg/edition/bedrock/geyser/floodgate"
-	"go.minekube.com/gate/pkg/util/netutil"
+	bconfig "github.com/luckcrafter/gate/pkg/edition/bedrock/config"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/geyser/floodgate"
+	"github.com/luckcrafter/gate/pkg/util/netutil"
 
-	"go.minekube.com/gate/pkg/version"
+	"github.com/luckcrafter/gate/pkg/version"
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 	"gopkg.in/yaml.v3"
 )

@@ -6,12 +6,12 @@ import (
 	"slices"
 	"time"
 
-	"go.minekube.com/gate/pkg/edition/java/forge/modinfo"
-	"go.minekube.com/gate/pkg/edition/java/ping"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/configutil"
-	"go.minekube.com/gate/pkg/util/favicon"
-	"go.minekube.com/gate/pkg/util/netutil"
+	"github.com/luckcrafter/gate/pkg/edition/java/forge/modinfo"
+	"github.com/luckcrafter/gate/pkg/edition/java/ping"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/configutil"
+	"github.com/luckcrafter/gate/pkg/util/favicon"
+	"github.com/luckcrafter/gate/pkg/util/netutil"
 )
 
 // DefaultConfig is the default configuration for Lite mode.

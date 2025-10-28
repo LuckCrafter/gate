@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/cookie"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state/states"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 	"github.com/robinbraemer/event"
 	"go.minekube.com/common/minecraft/key"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/cookie"
-	"go.minekube.com/gate/pkg/edition/java/proto/state/states"
-	"go.minekube.com/gate/pkg/gate/proto"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.minekube.com/gate/pkg/util/validation"
+	"github.com/luckcrafter/gate/pkg/util/validation"
 )
 
 // DefaultConfig is the default configuration for the Config.

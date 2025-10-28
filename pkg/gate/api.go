@@ -8,12 +8,12 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/robinbraemer/event"
 
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/gate/config"
-	"go.minekube.com/gate/pkg/internal/api"
-	"go.minekube.com/gate/pkg/internal/hashutil"
-	"go.minekube.com/gate/pkg/internal/reload"
-	"go.minekube.com/gate/pkg/runtime/process"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/gate/config"
+	"github.com/luckcrafter/gate/pkg/internal/api"
+	"github.com/luckcrafter/gate/pkg/internal/hashutil"
+	"github.com/luckcrafter/gate/pkg/internal/reload"
+	"github.com/luckcrafter/gate/pkg/runtime/process"
 )
 
 func setupAPI(cfg *config.Config, eventMgr event.Manager, initialEnable *proxy.Proxy) process.Runnable {

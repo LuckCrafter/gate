@@ -15,19 +15,19 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/state/states"
-	"go.minekube.com/gate/pkg/edition/java/proto/util/queue"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state/states"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util/queue"
 
 	"github.com/go-logr/logr"
 	"go.uber.org/atomic"
 
-	"go.minekube.com/gate/pkg/edition/java/proxy/phase"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/phase"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/packet"
-	"go.minekube.com/gate/pkg/edition/java/proto/state"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/errs"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 )
 
 // MinecraftConn is a Minecraft connection of a client or server.

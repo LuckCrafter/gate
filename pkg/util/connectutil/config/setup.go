@@ -8,8 +8,8 @@ import (
 
 	"github.com/go-logr/logr"
 
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/runtime/process"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/runtime/process"
 )
 
 type Instance interface {

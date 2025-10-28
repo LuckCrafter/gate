@@ -3,9 +3,9 @@ package tablist
 import (
 	"time"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/tablist"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
-	"go.minekube.com/gate/pkg/edition/java/proxy/tablist"
 )
 
 type KeyedEntry struct {

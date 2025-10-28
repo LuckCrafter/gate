@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"go.minekube.com/gate/pkg/util/netutil"
+	"github.com/luckcrafter/gate/pkg/util/netutil"
 
 	"github.com/pires/go-proxyproto"
 )

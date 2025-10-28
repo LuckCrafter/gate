@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/honeycombio/otel-config-go/otelconfig"
-	"go.minekube.com/gate/pkg/version"
+	"github.com/luckcrafter/gate/pkg/version"
 )
 
 // Init initializes the OpenTelemetry SDK with the OTLP exporter and the corresponding trace and meter providers.

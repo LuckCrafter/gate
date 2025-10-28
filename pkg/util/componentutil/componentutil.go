@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
+	protoutil "github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 	"go.minekube.com/common/minecraft/component"
 	"go.minekube.com/common/minecraft/component/codec/legacy"
-	protoutil "go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/gate/proto"
 )
 
 // ParseTextComponent parses a text component from a string.

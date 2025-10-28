@@ -5,13 +5,13 @@ import (
 	"strings"
 	"time"
 
-	bconfig "go.minekube.com/gate/pkg/edition/bedrock/config"
-	liteconfig "go.minekube.com/gate/pkg/edition/java/lite/config"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/util/componentutil"
-	"go.minekube.com/gate/pkg/util/configutil"
-	"go.minekube.com/gate/pkg/util/favicon"
-	"go.minekube.com/gate/pkg/util/validation"
+	bconfig "github.com/luckcrafter/gate/pkg/edition/bedrock/config"
+	liteconfig "github.com/luckcrafter/gate/pkg/edition/java/lite/config"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/util/componentutil"
+	"github.com/luckcrafter/gate/pkg/util/configutil"
+	"github.com/luckcrafter/gate/pkg/util/favicon"
+	"github.com/luckcrafter/gate/pkg/util/validation"
 )
 
 // DefaultConfig is a default Config.

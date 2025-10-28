@@ -1,10 +1,10 @@
 package methods
 
 import (
-	"go.minekube.com/gate/pkg/edition/java/proto/state"
-	"go.minekube.com/gate/pkg/edition/java/proto/state/states"
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state/states"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 )
 
 // Protocol returns the protocol version of the given subject if provided.

@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/forge/modinfo"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/componentutil"
+	"github.com/luckcrafter/gate/pkg/util/favicon"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 	"go.minekube.com/common/minecraft/component"
 	"go.minekube.com/common/minecraft/component/codec/legacy"
-	"go.minekube.com/gate/pkg/edition/java/forge/modinfo"
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/componentutil"
-	"go.minekube.com/gate/pkg/util/favicon"
-	"go.minekube.com/gate/pkg/util/uuid"
 	"gopkg.in/yaml.v3"
 )
 

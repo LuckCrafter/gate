@@ -11,10 +11,10 @@ import (
 	"go.minekube.com/connect"
 	"go.minekube.com/connect/ws"
 
-	"go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/runtime/process"
-	"go.minekube.com/gate/pkg/util/connectutil"
-	"go.minekube.com/gate/pkg/util/connectutil/single"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/runtime/process"
+	"github.com/luckcrafter/gate/pkg/util/connectutil"
+	"github.com/luckcrafter/gate/pkg/util/connectutil/single"
 )
 
 func service(c Config, reg proxy.ServerRegistry) (process.Runnable, error) {

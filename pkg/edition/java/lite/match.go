@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/jellydator/ttlcache/v3"
-	"go.minekube.com/gate/pkg/edition/java/lite/config"
+	"github.com/luckcrafter/gate/pkg/edition/java/lite/config"
 )
 
 // FindRoute returns the first route that matches the given wildcard supporting pattern.

@@ -6,12 +6,12 @@ import (
 	"reflect"
 
 	"github.com/go-logr/logr"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/config"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/geyser"
+	jproxy "github.com/luckcrafter/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/internal/reload"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 	"github.com/robinbraemer/event"
-	"go.minekube.com/gate/pkg/edition/bedrock/config"
-	"go.minekube.com/gate/pkg/edition/bedrock/geyser"
-	jproxy "go.minekube.com/gate/pkg/edition/java/proxy"
-	"go.minekube.com/gate/pkg/internal/reload"
-	"go.minekube.com/gate/pkg/util/errs"
 )
 
 // Options are the options for a new Bedrock edition Proxy.

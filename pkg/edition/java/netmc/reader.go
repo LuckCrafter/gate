@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"go.minekube.com/gate/pkg/edition/java/proto/codec"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/errs"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/codec"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 )
 
 // Reader is a packet reader.

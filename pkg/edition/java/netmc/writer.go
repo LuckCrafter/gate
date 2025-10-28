@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
-	"go.minekube.com/gate/pkg/edition/java/proto/codec"
-	"go.minekube.com/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/codec"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
 )
 
 // Writer is a packet writer.

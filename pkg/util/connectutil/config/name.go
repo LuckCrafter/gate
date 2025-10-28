@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/go-logr/logr"
+	"github.com/luckcrafter/gate/pkg/internal/randstr"
+	"github.com/luckcrafter/gate/pkg/version"
 	"github.com/rs/xid"
-	"go.minekube.com/gate/pkg/internal/randstr"
-	"go.minekube.com/gate/pkg/version"
 )
 
 func randomEndpointName(ctx context.Context) string {

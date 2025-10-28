@@ -3,7 +3,7 @@ package proxy
 import (
 	"testing"
 
-	"go.minekube.com/gate/pkg/edition/bedrock/config"
+	"github.com/luckcrafter/gate/pkg/edition/bedrock/config"
 )
 
 func TestRequiresRestart(t *testing.T) {

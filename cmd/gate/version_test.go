@@ -3,9 +3,9 @@ package gate
 import (
 	"testing"
 
+	"github.com/luckcrafter/gate/pkg/version"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.minekube.com/gate/pkg/version"
 )
 
 func TestVersionCommand(t *testing.T) {

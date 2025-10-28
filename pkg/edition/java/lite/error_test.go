@@ -5,8 +5,8 @@ import (
 	"syscall"
 	"testing"
 
+	"github.com/luckcrafter/gate/pkg/util/errs"
 	"github.com/stretchr/testify/assert"
-	"go.minekube.com/gate/pkg/util/errs"
 )
 
 func TestRealErrorVerbosity(t *testing.T) {

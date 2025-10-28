@@ -8,12 +8,11 @@ import (
 
 	"github.com/gammazero/deque"
 	"github.com/go-logr/logr"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/errs"
 	"github.com/sandertv/go-raknet"
 	packetutil "github.com/sandertv/gophertunnel/minecraft/protocol/packet"
-
-	"go.minekube.com/gate/pkg/edition/java/proto/state"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/errs"
 )
 
 type Decoder struct {

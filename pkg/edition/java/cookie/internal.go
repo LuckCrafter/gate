@@ -7,14 +7,14 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/luckcrafter/gate/pkg/edition/java/internal/methods"
+	pkt "github.com/luckcrafter/gate/pkg/edition/java/proto/packet/cookie"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/state/states"
 	"github.com/robinbraemer/event"
 	"go.minekube.com/common/minecraft/key"
-	"go.minekube.com/gate/pkg/edition/java/internal/methods"
-	pkt "go.minekube.com/gate/pkg/edition/java/proto/packet/cookie"
-	"go.minekube.com/gate/pkg/edition/java/proto/state/states"
 
-	"go.minekube.com/gate/pkg/edition/java/proto/version"
-	"go.minekube.com/gate/pkg/edition/java/proxy"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/version"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy"
 )
 
 func validate(c *Cookie, cli Client) error {

@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"errors"
 
-	"go.minekube.com/gate/pkg/edition/java/forge/modinfo"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/plugin"
-	"go.minekube.com/gate/pkg/edition/java/proto/util"
+	"github.com/luckcrafter/gate/pkg/edition/java/forge/modinfo"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/plugin"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/util"
 )
 
 const (

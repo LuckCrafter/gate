@@ -6,14 +6,14 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/go-logr/logr/testr"
+	"github.com/luckcrafter/gate/pkg/edition/java/lite/config"
+	"github.com/luckcrafter/gate/pkg/edition/java/ping"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet"
+	"github.com/luckcrafter/gate/pkg/gate/proto"
+	"github.com/luckcrafter/gate/pkg/util/configutil"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.minekube.com/gate/pkg/edition/java/lite/config"
-	"go.minekube.com/gate/pkg/edition/java/ping"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet"
-	"go.minekube.com/gate/pkg/gate/proto"
-	"go.minekube.com/gate/pkg/util/configutil"
-	"go.minekube.com/gate/pkg/util/uuid"
 )
 
 // TestHandleFallbackResponse tests the fallback response handling

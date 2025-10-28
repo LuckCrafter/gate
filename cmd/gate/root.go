@@ -10,10 +10,10 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/go-logr/zapr"
+	"github.com/luckcrafter/gate/pkg/gate"
+	"github.com/luckcrafter/gate/pkg/version"
 	"github.com/spf13/viper"
 	"github.com/urfave/cli/v2"
-	"go.minekube.com/gate/pkg/gate"
-	"go.minekube.com/gate/pkg/version"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"go.minekube.com/gate/pkg/edition/java/profile"
-	"go.minekube.com/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
-	"go.minekube.com/gate/pkg/edition/java/proxy/tablist"
-	"go.minekube.com/gate/pkg/util/uuid"
+	"github.com/luckcrafter/gate/pkg/edition/java/profile"
+	"github.com/luckcrafter/gate/pkg/edition/java/proto/packet/tablist/legacytablist"
+	"github.com/luckcrafter/gate/pkg/edition/java/proxy/tablist"
+	"github.com/luckcrafter/gate/pkg/util/uuid"
 )
 
 type LegacyTabList struct {

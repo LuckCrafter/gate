@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/jellydator/ttlcache/v3"
-	"go.minekube.com/gate/pkg/edition/java/lite/config"
+	"github.com/luckcrafter/gate/pkg/edition/java/lite/config"
 )
 
 // StrategyManager manages state for load balancing strategies across a single Gate instance.

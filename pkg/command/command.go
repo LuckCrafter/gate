@@ -5,9 +5,9 @@ import (
 	"errors"
 	"strings"
 
+	"github.com/luckcrafter/gate/pkg/util/permission"
 	"go.minekube.com/brigodier"
 	"go.minekube.com/common/minecraft/component"
-	"go.minekube.com/gate/pkg/util/permission"
 )
 
 // Manager is a command manager for
